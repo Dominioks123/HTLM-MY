@@ -1,0 +1,32 @@
+#web {
+    display: grid;
+    grid-template-rows: 150px 900px ;
+  grid-template-columns: 150px auto ;
+  grid-template-areas: 
+    "icon title"
+    "menu text";
+    
+}
+
+#title {
+    margin-top: 0px;
+    height: 150px;
+    margin-left: 0px;
+    background-color: blue;
+    padding-left: 10px;
+}
+#menu {
+    width: 150px;
+    height: auto;
+    background-color: cyan;
+
+}
+#text {
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+
+}
+h1 {
+    text-size-adjust: 150%;
+}
